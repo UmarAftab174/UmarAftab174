@@ -62,7 +62,7 @@ YOLO + ByteTrack/BOT-Track at 30 FPS on 2+ hours of surveillance video.
 
 ## A bit about me
 
-I'm the President of the [BU Artificial Intelligence Club](https://linkedin.com/in/umaraftab174), 
+I'm the President of the [BU Artificial Intelligence Club](https://www.linkedin.com/company/bu-artificial-intelligence-club), 
 where I run workshops, coordinate industry events, and try to get more 
 students building things instead of just reading about them.
 
