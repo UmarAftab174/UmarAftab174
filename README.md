@@ -39,7 +39,7 @@ production-ready AI diagnostic assistant. A custom 1D-CNN processes
 Under 2s conversational inference latency. Stack: FastAPI, React, Gemini 
 LLM, JWT auth.
 
-[**FN Crib**] — A Dockerized e-commerce platform 
+**FN Crib** — A Dockerized e-commerce platform 
 built and deployed on a VPS with Laravel, PostgreSQL, Redis, and Tailwind 
 CSS. Integrated Mailgun for transactional email and NOWPayments for 
 crypto payments. Production live.
