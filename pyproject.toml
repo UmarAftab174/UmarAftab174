@@ -1,0 +1,14 @@
+[project]
+name = "umaraftab174"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numba>=0.66.0",
+    "numpy>=2.4.6",
+    "opencv-python>=5.0.0.93",
+    "pillow>=12.3.0",
+    "pymatting>=1.1.15",
+    "rembg>=2.0.76",
+]
