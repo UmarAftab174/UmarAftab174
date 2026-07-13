@@ -1,0 +1,18 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-size: 24px; font-weight: bold; fill: #00ff88; }
+    .label { font-size: 14px; fill: #888; }
+    .value { font-size: 16px; fill: #fff; }
+    .section { margin-bottom: 20px; }
+  </style>
+  <text x="20" y="30" class="title">Umar Aftab</text>
+  <text x="20" y="60" class="value">AI Engineer · Full-Stack Developer</text>
+  <text x="20" y="90" class="label">Experience:</text>
+  <text x="20" y="110" class="value">2+ years building AI systems</text>
+  <text x="20" y="140" class="label">Stack:</text>
+  <text x="20" y="160" class="value">Python, FastAPI, React, TensorFlow, Docker</text>
+  <text x="20" y="190" class="label">Highlights:</text>
+  <text x="20" y="210" class="value">LLM Agents, Computer Vision, Healthcare AI</text>
+  <rect x="10" y="240" width="480" height="1" fill="#444" />
+  <text x="20" y="260" class="label">GitHub: UmarAftab174</text>
+</svg>
