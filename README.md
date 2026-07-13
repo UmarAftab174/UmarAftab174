@@ -3,8 +3,8 @@
 <!-- Hero: ASCII portrait + info panel -->
 <table>
 <tr>
-<td valign="top"><img src="./umar-ascii.svg" width="370" alt="Umar Aftab — ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Umar Aftab — AI Engineer, BU AI Club President, Full-Stack Developer" /></td>
+<td valign="top"><img src="umar-ascii.svg" width="370" alt="Umar Aftab — ASCII portrait" /></td>
+<td valign="top"><img src="info-card.svg" width="490" alt="Umar Aftab — AI Engineer, BU AI Club President, Full-Stack Developer" /></td>
 </tr>
 </table>
 
