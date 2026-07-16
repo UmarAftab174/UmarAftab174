@@ -1,10 +1,9 @@
 # scripts/make_ascii_svg.py
-import cv2
-import numpy as np
-
 ASCII_CHARS = "@%#*+=-:. "
 
 def image_to_ascii(image_path, width=80):
+    import cv2  # imported lazily so ascii_to_svg works without OpenCV installed
+
     img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
     if img is None:
         raise ValueError(f"Could not read image at {image_path}")
@@ -21,25 +20,43 @@ def image_to_ascii(image_path, width=80):
             ascii_str += ASCII_CHARS[index]
         ascii_str += "\n"
 
-    # Generate SVG with typing animation
-    svg = f"""<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    return ascii_to_svg(ascii_str)
+
+
+def ascii_to_svg(ascii_str):
+    """Wrap ASCII art in a well-formed SVG document.
+
+    Each line becomes its own *closed* <tspan> so the result is valid XML —
+    GitHub serves SVGs as image/svg+xml and a strict XML parser silently
+    rejects the whole file if any tag is left open. A dark background rect
+    keeps the light text readable in both GitHub light and dark themes, and
+    the viewBox is sized to the content so nothing is clipped.
+    """
+    def esc(s):
+        return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    lines = ascii_str.rstrip("\n").split("\n")
+    char_w, line_h, margin = 7.3, 14.4, 12
+    cols = max((len(line) for line in lines), default=0)
+    vb_w = round(margin * 2 + cols * char_w)
+    vb_h = round(margin * 2 + (len(lines) + 1) * line_h)
+    tspans = "".join(
+        f'<tspan x="{margin}" dy="{line_h}">{esc(line)}</tspan>' for line in lines
+    )
+
+    return f"""<svg viewBox="0 0 {vb_w} {vb_h}" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @keyframes type {{
-      from {{ opacity: 0; }}
-      to {{ opacity: 1; }}
-    }}
+    @keyframes type {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
     text {{
       font-family: "Courier New", monospace;
       font-size: 12px;
-      fill: white;
-      animation: type 0.1s steps(1) forwards;
+      fill: #e6edf3;
+      animation: type 0.4s ease forwards;
     }}
   </style>
-  <text x="10" y="20" font-size="12">
-{ascii_str.replace("\n", '<tspan x="10" dy="1.2em">')}
-  </text>
+  <rect width="{vb_w}" height="{vb_h}" fill="#0d1117" />
+  <text x="{margin}" y="{margin}">{tspans}</text>
 </svg>"""
-    return svg
 
 if __name__ == "__main__":
     import sys
