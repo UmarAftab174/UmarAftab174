@@ -22,15 +22,15 @@ TITLE_H = 34
 LINES = [
     [("umar@github", ACCENT, True)],
     [("-----------", MUTED, False)],
-    [("Role   ", ACCENT, False), ("AI Engineer · Full-Stack Developer", FG, False)],
-    [("Club   ", ACCENT, False), ("BU AI Club President", FG, False)],
-    [("Edu    ", ACCENT, False), ("BS Artificial Intelligence, Bahria University", FG, False)],
+    [("AI Engineer", FG, False)],
+    [("BS Artificial Intelligence, Bahria University", FG, False)],
+    [("Production ML & LLM Systems", FG, False)],
     [],
     [("─ Stack", ACCENT, True)],
     [("Python, FastAPI, React, TensorFlow, Docker", FG, False)],
     [],
     [("─ Highlights", ACCENT, True)],
-    [("LLM Agents · Computer Vision · Healthcare AI", FG, False)],
+    [("LLM Agents · Computer Vision · Healthcare AI · NLP · Full Stack Development", FG, False)],
 ]
 
 
