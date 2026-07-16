@@ -25,7 +25,7 @@ def generate_info_card(output_path):
   <rect x="10" y="240" width="480" height="1" fill="#444" />
   <text x="20" y="260" class="label">GitHub: UmarAftab174</text>
 </svg>"""
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"Info card SVG saved to {output_path}")
 
