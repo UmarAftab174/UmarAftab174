@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated intermediate (rebuilt by the profile-art workflow)
+source-prepped.png
+
+# Local tooling
+.claude/
