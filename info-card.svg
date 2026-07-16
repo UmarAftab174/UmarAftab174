@@ -6,7 +6,7 @@
     .section { margin-bottom: 20px; }
   </style>
   <text x="20" y="30" class="title">Umar Aftab</text>
-  <text x="20" y="60" class="value">AI Engineer · Full-Stack Developer</text>
+  <text x="20" y="60" class="value">AI Engineer Â· Full-Stack Developer</text>
   <text x="20" y="90" class="label">Experience:</text>
   <text x="20" y="110" class="value">2+ years building AI systems</text>
   <text x="20" y="140" class="label">Stack:</text>

@@ -19,8 +19,8 @@
 
 <br>
 
-<!-- Animated contribution graph -->
-<img src="./contrib-heatmap.svg" width="860" alt="Umar's GitHub contribution graph — auto-refreshed daily" />
+<!-- Live contribution graph (hosted service, refreshes automatically) -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=UmarAftab174&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area=true&area_color=00ff88&title_color=ffffff&hide_border=true" width="860" alt="Umar's GitHub contribution graph" />
 
 </div>
 

@@ -47,6 +47,6 @@ if __name__ == "__main__":
         print("Usage: python make_ascii_svg.py <prepped_photo> <output_svg>")
         sys.exit(1)
     svg_content = image_to_ascii(sys.argv[1])
-    with open(sys.argv[2], "w") as f:
+    with open(sys.argv[2], "w", encoding="utf-8") as f:
         f.write(svg_content)
     print(f"ASCII SVG saved to {sys.argv[2]}")
