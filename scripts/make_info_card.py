@@ -24,13 +24,19 @@ LINES = [
     [("-----------", MUTED, False)],
     [("AI Engineer", FG, False)],
     [("BS Artificial Intelligence, Bahria University", FG, False)],
-    [("Production ML & LLM Systems", FG, False)],
+    [("Karachi, Pakistan", FG, False)],
+    [],
+    [("─ Experience", ACCENT, True)],
+    [("Unikrew Solutions - Artificial Intelligence Intern", FG, False)],
+    [("Freelance - Full Stack AI Developer", FG, False)],
+    [("DARC Technologies - Research & Development Intern", FG, False)],
+    [("Excelerate - Data Analyst Intern", FG, False)],
     [],
     [("─ Stack", ACCENT, True)],
-    [("Python, FastAPI, React, TensorFlow, Docker", FG, False)],
+    [("Python, PyTorch, FastAPI, Unsloth, Docker", FG, False)],
     [],
     [("─ Highlights", ACCENT, True)],
-    [("LLM Agents · Computer Vision · Healthcare AI · NLP · Full Stack Development", FG, False)],
+    [("LLM Fine-Tuning · On-Premise Deployment · Computer Vision · NLP · Full Stack Dev", FG, False)],
 ]
 
 
