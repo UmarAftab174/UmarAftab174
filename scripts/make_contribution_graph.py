@@ -104,7 +104,10 @@ def render_svg(login, total, days):
     # markers on days with contributions (all-day markers would be too dense at this width)
     for i, v in enumerate(counts):
         if v > 0:
-            p.append(f'<circle cx="{x(i):.1f}" cy="{y(v):.1f}" r="1.8" fill="{LINE}"/>')
+            p.append(
+                f'<circle cx="{x(i):.1f}" cy="{y(v):.1f}" r="2.4" fill="{BG}" '
+                f'stroke="{POINT}" stroke-width="1.2"/>'
+            )
 
     # a handful of x-axis month labels, evenly spaced
     label_idxs = sorted(set([0] + [round(i * (n - 1) / 5) for i in range(1, 5)] + [n - 1]))
