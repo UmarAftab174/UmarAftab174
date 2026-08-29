@@ -19,8 +19,8 @@
 
 <br>
 
-<!-- Live contribution graph (hosted service, refreshes automatically) -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=UmarAftab174&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area=true&area_color=00ff88&title_color=ffffff&hide_border=true" width="860" alt="Umar's GitHub contribution graph" />
+<!-- Self-hosted contribution graph, regenerated daily by .github/workflows/update-profile-art.yml -->
+<img src="contribution-graph.svg" width="860" alt="Umar's GitHub contribution graph" />
 
 </div>
 
