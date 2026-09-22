@@ -27,7 +27,7 @@ LINES = [
     [("Karachi, Pakistan", FG, False)],
     [],
     [("─ Experience", ACCENT, True)],
-    [("Unikrew Solutions - AI Intern (Jun 2026-Present)", FG, False)],
+    [("Unikrew Solutions - AI Intern (Jun-Sept 2026)", FG, False)],
     [("Freelance - Full Stack AI Developer (Aug 2025-Present)", FG, False)],
     [("DARC Technologies - R&D Intern (Jul-Oct 2025)", FG, False)],
     [("Excelerate - Data Analyst Intern (Feb-Mar 2025)", FG, False)],
