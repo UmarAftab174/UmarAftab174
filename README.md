@@ -33,11 +33,11 @@
 
 ---
 ## What I build
-I build production-ready AI systems, not just models. My current focus is fine-tuning and deploying LLMs on-premise for privacy-sensitive environments, alongside computer vision pipelines and full-stack ML inference backends. I care about latency, scalability, and systems that hold up outside the notebook.
+I build production-ready AI systems, not just models. My current focus is fine-tuning and deploying LLMs on-premises for privacy-sensitive environments, alongside computer vision pipelines and full-stack ML inference backends. I care about latency, scalability, and systems that hold up outside the notebook.
 
 ---
 ## What I've Shipped
-- **On-Premise LLM Deployment at Unikrew Soltions** - Fine-tuned an open-source 20B MoE LLM via two-stage QLoRA on a ~50GB curated domain corpus for a regulated fintech environment; benchmarked vLLM against llama.cpp (GGUF) and Ollama serving backends and selected vLLM for on-premise inference. **Stack:** Unsloth, QLoRA, vLLM, llama.cpp, RTX 5090.
+- **On-Premise LLM Deployment at Unikrew Solutions** - Fine-tuned an open-source 20B MoE LLM via two-stage QLoRA on a ~50GB curated domain corpus for a regulated fintech environment; benchmarked vLLM against llama.cpp (GGUF) and Ollama serving backends and selected vLLM for on-premises inference. **Stack:** Unsloth, QLoRA, vLLM, llama.cpp, RTX 5090.
 - **Fraud & AML Detection System at Unikrew Solutions** - Built a 4-model fraud and AML detection pipeline (XGBoost, LSTM, Isolation Forest, Autoencoder) for a multi-tenant Transaction Monitoring System aligned to SBP compliance standards, backed by a manifest-driven single source of truth for ML/rules feature contracts. **Stack:** XGBoost, PyTorch, scikit-learn.
 - **Multi-Tenant TMS Backend at Unikrew Solutions** - Built the backend for a multi-tenant transaction monitoring system with database-enforced tenant isolation via PostgreSQL Row-Level Security, a dual-scoring ML + rules decision engine, and a hash-chained immutable audit log for regulatory compliance. **Stack:** FastAPI, PostgreSQL, SQLAlchemy, Alembic.
 - **Large-Scale Face Retrieval at Unikrew Solutions** - Built a 1:N face identification pipeline (FaceNet-style ONNX embeddings + FAISS), achieving ~2.9ms 1:M search latency on a 5.82M-image dataset using CPU-only hardware; scoped a production-grade 1:M retrieval system for 180M+ images. **Stack:** C++, ONNX Runtime, FAISS.
@@ -54,7 +54,7 @@ I build production-ready AI systems, not just models. My current focus is fine-t
 
 ---
 ## A Bit About Me
-I'm a final-year AI undergraduate at Bahria University Karachi. Currently interning at Unikrew Solutions, where I lead the LLM component of an internal initiative, evaluating and fine-tuning an open-source model for on-premise deployment to keep sensitive data off third-party APIs. I build AI systems that bridge the gap between research and production, with a focus on **fintech, healthcare, and automation**. Open to collaborations and full-time opportunities.
+I'm a final-year AI undergraduate at Bahria University Karachi. Currently interning at Unikrew Solutions, where I lead the LLM component of an internal initiative, evaluating and fine-tuning an open-source model for on-premises deployment to keep sensitive data off third-party APIs. I build AI systems that bridge the gap between research and production, with a focus on **fintech, healthcare, and automation**. Open to collaborations and full-time opportunities.
 
 ---
 ## Certifications & Activities
